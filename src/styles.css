@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+:root {
+    --p-cyan-500: #00bcd4;
+    --p-orange-500: #ff9800;
+    --p-gray-500: #9e9e9e;
+    --p-cyan-400: #26c6da;
+    --p-orange-400: #ffa726;
+    --p-gray-400: #bdbdbd;
+    --p-text-color: #333333;
+}
+
+

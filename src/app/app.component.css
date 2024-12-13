@@ -1,0 +1,28 @@
+/* Contenedor principal */
+.container {
+    display: flex; /* Habilita diseño en fila */
+    justify-content: space-between; /* Distribuye espacio igual entre columnas */
+    align-items: stretch; /* Ajusta la altura de las columnas al contenido más alto */
+    gap: 1rem; /* Espacio entre columnas */
+    padding: 1rem; /* Espaciado interno para el contenedor */
+  }
+  
+  /* Estilo de las columnas */
+  .column {
+    flex: 1; /* Cada columna ocupa el mismo ancho disponible */
+    min-width: 100px; /* Ancho mínimo para evitar que se encojan demasiado */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 1rem; /* Espaciado interno para cada columna */
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho/alto */
+  }
+  
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Cambia a diseño vertical en pantallas pequeñas */
+    }
+  }
+  
